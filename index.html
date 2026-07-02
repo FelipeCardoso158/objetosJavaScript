@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Objetos JavaScript</h1>
 <script>
     const pessoa = {
         nome: "João",
@@ -14,11 +15,52 @@
             console.log("Olá, meu nome  é " + this.nome);
         }
     };
-
+    
     pessoa.saudacao(); // Chama o método saudacao do objeto pessoa
+    
+    const carro = {
+    marca: "Toyota",
+     modelo: "Corolla",
+    ligar: function() {
+    console.log("O carro está ligado!");
+  }
+}
+
+const gato = {
+  cor: "Preto",
+  peso: "4kg",
+  miar: function() {
+    console.log("Miau!");
+  }
+};
+
+const celular = {
+  cor: "Prata",
+  peso: "200g",
+  
+  clique: function() {
+    console.log("Estou efetuando cliques!");
+  }
+};
+    const cadeira = {
+  cor: "Azul",
+  peso: "5kg",
+  
+  girar: function() {
+    console.log("Estou girando na cadeiraaa!");
+  }
+};
+
+const pocao = {
+  cor: "Roxa",
+  peso: "100g",
+  
+  efeito: function() {
+    console.log("Tomei a poção e agora vou VOARRR!");
+  }
+};
+
 </script>
 
-
 </body>
-
 </html>
